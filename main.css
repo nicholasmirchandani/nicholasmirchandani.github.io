@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+}
+
+h1, h2, h3, a {
+    color: white;
+}
+
+body {
+    background: black;
+}
+
+canvas {
+    width: 50%;
+    margin-left: 25%;
+}
