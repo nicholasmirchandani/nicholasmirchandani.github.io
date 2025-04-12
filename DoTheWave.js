@@ -203,10 +203,10 @@ function main() {
       }
   
       if (increaseStep == true) {
-        step = (0.001 - blue / 110.0); 
+        step = (0.001 - blue / 1100.0); 
       } else {
         blue = blue > 1.0 ? 1.0 : blue;
-        step = -0.001 + ((1.0 - blue) / 110.0);
+        step = -0.001 + ((1.0 - blue) / 1100.0);
       }
 
       if (numWaves > MAX_WAVES) {
