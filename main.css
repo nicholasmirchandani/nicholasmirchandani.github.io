@@ -2,12 +2,16 @@ h1 {
     text-align: center;
 }
 
-h1, h2, h3, a {
+h1, h2, h3, a, li, p {
     color: white;
 }
 
 body {
     background: black;
+}
+
+.center {
+    text-align: center;
 }
 
 canvas {
